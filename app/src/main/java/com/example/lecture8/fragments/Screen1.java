@@ -124,7 +124,7 @@ public class Screen1 extends Fragment {
                 SharedPreferences.Editor editor = sp.edit();
                 editor.clear().apply();
                 if(editor.commit()){
-                    Toast.makeText(getActivity(), "Clear Successfully", Toast.LENGTH_LONG).show();
+                  //  Toast.makeText(getActivity(), "Clear Successfully", Toast.LENGTH_LONG).show();
                 }
                 else{
                     Toast.makeText(getActivity(), "Clear fail", Toast.LENGTH_SHORT).show();
